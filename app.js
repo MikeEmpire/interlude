@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
   res.render('index', data);
 });
 
-pp.post('/send', (req, res) => {
+app.post('/send', (req, res) => {
   /* eslint-disable no-console */
   const output = `
     <p>You have a new contact request</p>
